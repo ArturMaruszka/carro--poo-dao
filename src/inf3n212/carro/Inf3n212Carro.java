@@ -395,6 +395,8 @@ public class Inf3n212Carro {
                         }
                         if (op < 0 || op > 5) {
                             System.out.print("Opção inválida!");
+                        }else{
+                            carroS.atualizarCarro(c);
                         }
                         isPlaca = false;
                     } while (isPlaca);
